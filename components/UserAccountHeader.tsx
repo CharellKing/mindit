@@ -78,6 +78,9 @@ export default function UserAccountHeader({ user }: UserAccountNavProps) {
               <DropdownMenuItem asChild>
                 <Link href="/billing">Billing</Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/mindmap">MindIt</Link>
+              </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem
                 className="cursor-pointer"

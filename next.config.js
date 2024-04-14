@@ -3,7 +3,7 @@ const { withContentlayer } = require("next-contentlayer");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: process.env.NODE_ENV === "development",
+  reactStrictMode: false,
   swcMinify: true,
   images: {
     domains: [
